@@ -1,6 +1,6 @@
 # Traffic Light
 
-## 코드 및 영상 설명
+## vintage_yolo 설명
 
 ### (1) 시작코드
 **traffic_light.py**
@@ -34,3 +34,10 @@
   - 위 코드에서 추출한 색을 통해 윈도우를 만들어 색을 감지합니다.
   - 윈도우의 크기, 스텝 간격, ROI 등 여러 설정을 변경하며 실험이 가능합니다.
   - 트랙바를 통해 픽셀의 최소 임계값을 설정할 수 있습니다.
+
+## blur_diff_trial 설명
+- 블러의 커널 사이즈를 다르게 하여 촬영하여 노이즈 및 검출 상황, 반응속도 등을 측정한 영상입니다.
+### gausian_blur
+- **gausian_blur3 / gausian_blur7**
+### median_blur
+- **median_blur3 / median_blur7 / median_blur7**
